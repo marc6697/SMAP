@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "499089205527",
+    "firebase_url": "https://smap-caf4b.firebaseio.com",
+    "project_id": "smap-caf4b",
+    "storage_bucket": "smap-caf4b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499089205527:android:0acc88c92a6b75d6",
+        "android_client_info": {
+          "package_name": "space.badboyin.smap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499089205527-ojsg6dan44jnrvq2h9nftriqak315uud.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "space.badboyin.smap",
+            "certificate_hash": "42eb93e2b10386e620147d59d1c27475dfc7cc8f"
+          }
+        },
+        {
+          "client_id": "499089205527-jgjbeqeqggh7cm7ib71eroadqrniaa0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJNlWg3UoPVCE1KM9cPAXeNancOleY2Ps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499089205527-jgjbeqeqggh7cm7ib71eroadqrniaa0o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

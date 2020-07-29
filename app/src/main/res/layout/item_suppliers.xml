@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Abuabu"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/text_sales_pt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Joko"
+                android:textSize="20sp"
+                android:fontFamily="@font/monserratmedium"
+                android:textColor="@color/putih"/>
+
+            <TextView
+                android:id="@+id/text_sales_nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+
+                android:layout_marginBottom="20dp"
+                android:text="PT CENDOL "
+                android:fontFamily="@font/montserratlight"
+                android:textSize="15sp"
+                android:textColor="@color/putih"/>
+
+            <TextView
+                android:id="@+id/text_sales_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="-20dp"
+                android:fontFamily="@font/montserratlight"
+                android:text="PT CENDOL DAWET"
+                android:textColor="@color/putih"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+</LinearLayout>

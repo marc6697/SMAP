@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="space.badboyin.smap">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon_app"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Transaksi.PramuRiwayatTransaksiTodayActivity"></activity>
+        <activity android:name=".Transaksi.PramuRiwayatTransaksiActivity" />
+        <activity android:name=".Transaksi.TampilRiwayatActivity" />
+        <activity android:name=".Activity.MenuGudangActivity" />
+        <activity
+            android:name=".Activity.MenuPramuniagaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Transaksi.DetailPembelianActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Transaksi.DetailPenjualanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityAdmin.UbahData.DetailUbahDataMerkActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityAdmin.UbahData.UbahDataMerkActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityAdmin.TambahData.TambahMerkActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityAdmin.KelolaData.KelolaMerkActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".DeviceListActivity" />
+        <activity
+            android:name=".ActivityAdmin.KelolaData.KelolaSalesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityAdmin.KelolaData.KelolaKategoriActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityAdmin.KelolaData.KelolaUkuranActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityAdmin.KelolaData.KelolaKeramikActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ListData.ListUserActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Transaksi.LaporanActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Transaksi.RiwayatOrderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Transaksi.TransaksiPembelianActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Transaksi.RiwayatTransaksiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Transaksi.BarangPickerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityAdmin.UbahData.DetailUbahDataKeramikActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityAdmin.UbahData.DetailUbahDataSalesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityAdmin.UbahData.UbahDataSalesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Transaksi.TransaksiPenjualanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ListData.ListSupplierActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityAdmin.UbahData.DetailUbahDataKategoriActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityAdmin.UbahData.UbahDataKategoriActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityAdmin.UbahData.DetailUbahDataUkuranActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityAdmin.UbahData.UbahDataUkuranActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityAdmin.UbahData.UbahDataActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityAdmin.UbahData.UbahDataKeramikActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityAdmin.TambahData.TambahDataUkuranActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityAdmin.TambahData.TambahKategoriActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityAdmin.TambahData.TambahDataSalesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityAdmin.TambahData.TambahDataKeramikActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityAdmin.KelolaData.KelolaDataActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.ScanQRCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ListData.ListKeramikActivitynew"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Detail.DetailSupplierActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.BuatAvatarActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.DaftarAkunActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.MenuAdminActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.WelcomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.SplashScreenActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

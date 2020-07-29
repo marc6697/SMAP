@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6c63ff</color>
+    <color name="colorPrimaryDark">#6c63ff</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="black_semi_transparent">#50000000</color>
+
+    <color name="grey">#E9E9E9</color>
+    <color name="nocolor">#00FFFFFF</color>
+    <color name="putih">#FFFF</color>
+    <color name="Abuabu">#3F3D56</color>
+    <color name="Putih">#FFFFFF</color>
+    <color name="Merah">#FF001D</color>
+    <color name="Hitam">#000000</color>
+    <color name="Hijau">#1abc9c</color>
+
+    <color name="emas">#FFC107</color>
+
+
+</resources>
